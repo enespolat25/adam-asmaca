@@ -1,3 +1,4 @@
+
 var Hangman = (function () {
     'use strict';
 
@@ -60,12 +61,12 @@ var Hangman = (function () {
             this.showElementByIdWithContent(this.elId + "_" + this.MISTAKES, null);
             // Check if its Game Over
             if (this.MISTAKES === 6) {
-                this.showElementByIdWithContent(this.elId + "_end", "GAME OVER!<br/>The word was: " + this.WORD);
+                this.showElementByIdWithContent(this.elId + "_end", "OYUN BİTTİ!<br/>The word was: " + this.WORD);
                 this.STOPPED = true;
             }
         } else if (this.WORD.indexOf(this.getGuessedfWord()) !== -1) {
             // Victory condition
-            this.showElementByIdWithContent(this.elId + "_end", "You made it!<br/>The word was: " + this.WORD);
+            this.showElementByIdWithContent(this.elId + "_end", "KAZANDIN!<br/>KELİME: " + this.WORD);
             this.STOPPED = true;
         }
     };
