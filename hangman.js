@@ -1,8 +1,3 @@
-/**
-* Hangman in Vanilla Javascript
-* @see https://github.com/jelofsson/hangman-js
-* @author jelofsson
-**/
 var Hangman = (function () {
     'use strict';
 
@@ -15,9 +10,9 @@ var Hangman = (function () {
         this.elId       = elId;
         // Possible words
         this.words      = [
-            'JANDARMA', 'ULTRASON', 'TELEFON', 'ANDROİD',
-            'MEKANİZMA', 'RAMAZAN', 'KİTAPLIK', 'YAZILIM',
-            'TEMELLİ','PALANDÖKEN','BİLİŞİM','KÜTÜPHANE'
+            'JANDARMA', 'ULTRASON', 'TELEFON', 'ANDROID',
+            'GAZETE', 'RAMAZAN', 'OSMANLI', 'YAZILIM',
+            'KAHVEHANE','ALPARSLAN','BODRUM','SAKARYA'
         ];
     }
 
